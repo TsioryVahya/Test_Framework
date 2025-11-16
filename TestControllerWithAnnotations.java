@@ -19,4 +19,9 @@ public class TestControllerWithAnnotations {
     public String methodWithoutAnnotation() {
         return "No annotation";
     }
+
+    @GetMapping("/mandeha")
+    public String helloMethod() {
+        return "tena mandeha marina";
+    }
 }
